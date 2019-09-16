@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.white,
+          primaryColor: Colors.white,
           platform: TargetPlatform.iOS //右滑返回
       ),
       home: SplashPage(),

@@ -4,5 +4,9 @@
     <item android:drawable="@android:color/white" />
 
     <!-- You can insert your own image assets here -->
-    <item android:drawable="@mipmap/splash"/>
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@mipmap/splash" />
+    </item>
 </layer-list>
